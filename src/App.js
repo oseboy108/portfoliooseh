@@ -7,7 +7,7 @@ import Navbar from "./components/inc/Navbar";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
-import Services from "./components/pages/Services";
+
 import Footer from "./components/inc/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -32,9 +32,9 @@ function App() {
                       <Contact />
                       </Route>
 
-                      <Route path="/services">
-                      <Services />
-                      </Route>
+                
+                      
+                  
 
                       </Switch>
                      <Footer /> 
